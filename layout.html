@@ -1,0 +1,100 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="navbar.css" />
+    <!-- tambah style baru -->
+    <link rel="stylesheet" href="style.css" />
+    <!--tambah style baru  -->
+    <title>Navbar Responsif</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <div class="img-container">
+          <img
+            src="tokopedia.svg"
+            width="130px"
+            height="auto"
+            alt="tokopedia.jpg"
+          />
+        </div>
+        <div class="search-box">
+          <img
+            src="search-icon.png"
+            width="27px"
+            height="auto"
+            alt="search-icon"
+          />
+          <input
+            type="text"
+            placeholder="Cari di Tokopedia"
+            class="input-search"
+          />
+        </div>
+        <ul class="navbar" id="navbar">
+          <li><a href="#">Kategori</a></li>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Layanan</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h2>Produk Terbaik</h2>
+    </div>
+    <div class="container">
+      <div class="card">
+        <!-- Gambar produk pertama -->
+        <img
+          src="laptop.jpeg"
+          width="150px"
+          height="100px"
+          alt="Produk 1"
+          class="product-image"
+        />
+        <!-- Bagian detail produk -->
+        <div class="product-details">
+          <!-- Nama produk -->
+          <h2 class="product-name">Laptop 1</h2>
+          <!-- Harga produk -->
+          <p class="product-price">Rp 7.100.000</p>
+        </div>
+      </div>
+      <div class="card">
+        <!-- Gambar produk Kedua -->
+        <img
+          src="laptop.jpeg"
+          width="150px"
+          height="100px"
+          alt="Produk 1"
+          class="product-image"
+        />
+        <!-- Bagian detail produk -->
+        <div class="product-details">
+          <!-- Nama produk -->
+          <h2 class="product-name">Laptop 1</h2>
+          <!-- Harga produk -->
+          <p class="product-price">Rp 7.100.000</p>
+        </div>
+      </div>
+      <div class="card">
+        <!-- Gambar produk Ketiga -->
+        <img
+          src="laptop.jpeg"
+          width="150px"
+          height="100px"
+          alt="Produk 1"
+          class="product-image"
+        />
+        <!-- Bagian detail produk -->
+        <div class="product-details">
+          <!-- Nama produk -->
+          <h2 class="product-name">Laptop 1</h2>
+          <!-- Harga produk -->
+          <p class="product-price">Rp 7.100.000</p>
+        </div>
+      </div>
+    </div>
+    <script src="layout.js"></script>
+  </body>
+</html>

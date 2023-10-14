@@ -1,0 +1,38 @@
+/* Mengatur tata letak produk dalam kontainer dengan jarak 10px */
+.container {
+  display: flex; /* Menggunakan flexbox */
+  justify-content: center;
+  gap: 4px; /* Jarak antara kartu produk */
+}
+
+/* Kartu produk */
+.card {
+  width: 150px; /* Lebar kartu tetap 300px */
+  border: 1px solid #ccc; /* Garis tepi kartu */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Bayangan lembut */
+  text-align: center; /* Tengah-tepatkan teks dalam kartu */
+  border-radius: 8px; /* Sudut melengkung untuk tampilan estetis */
+  margin: 5px; /* Jarak dari elemen lain */
+  padding: 10px; /* Ruang dalam kartu */
+  background-color: #fff; /* Warna latar belakang putih */
+}
+
+/* Bagian detail produk */
+.product-details {
+  display: flex; /* Menggunakan flexbox untuk tata letak vertikal */
+  flex-direction: column; /* Urutan elemen dalam kolom */
+  justify-content: center; /* Tengahkan vertikal */
+}
+
+/* Nama produk */
+.product-name {
+  font-size: 1.2rem; /* Ukuran teks nama produk */
+  font-weight: bold; /* Tebal teks */
+  margin: 10px 0; /* Jarak atas dan bawah dari nama produk */
+}
+
+/* Harga produk */
+.product-price {
+  font-size: 1rem; /* Ukuran teks harga produk */
+  color: #f00; /* Warna teks harga merah */
+}
